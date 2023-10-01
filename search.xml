@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>博客测试页</title>
-    <url>/posts/50683.html</url>
+    <url>/posts/1.html</url>
     <content><![CDATA[<h1 id="一级标题测试"><a href="#一级标题测试" class="headerlink" title="一级标题测试"></a>一级标题测试</h1><h2 id="二级标题测试"><a href="#二级标题测试" class="headerlink" title="二级标题测试"></a>二级标题测试</h2><h3 id="三级标题测试"><a href="#三级标题测试" class="headerlink" title="三级标题测试"></a>三级标题测试</h3><h4 id="四级标题测试"><a href="#四级标题测试" class="headerlink" title="四级标题测试"></a>四级标题测试</h4><h5 id="五级标题测试"><a href="#五级标题测试" class="headerlink" title="五级标题测试"></a>五级标题测试</h5><h6 id="六级标题测试"><a href="#六级标题测试" class="headerlink" title="六级标题测试"></a>六级标题测试</h6><blockquote>
 <p>引用测试</p>
 <p>123456</p>
@@ -26,7 +26,7 @@
   </entry>
   <entry>
     <title>洛谷P3374的线段树解法</title>
-    <url>/posts/1.html</url>
+    <url>/posts/2.html</url>
     <content><![CDATA[<h1 id="题干"><a href="#题干" class="headerlink" title="题干"></a>题干</h1><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>如题，已知一个数列，你需要进行下面两种操作：</p>
 <ul>
 <li><p>将某一个数加上 $x$</p>

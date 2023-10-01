@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-01T07:36:35.035Z</updated>
+  <updated>2023-10-01T07:49:18.668Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>洛谷P3374的线段树解法</title>
-    <link href="http://example.com/posts/1.html"/>
-    <id>http://example.com/posts/1.html</id>
+    <link href="http://example.com/posts/2.html"/>
+    <id>http://example.com/posts/2.html</id>
     <published>2023-10-01T07:30:20.000Z</published>
-    <updated>2023-10-01T07:36:35.035Z</updated>
+    <updated>2023-10-01T07:49:18.668Z</updated>
     
     
       
@@ -41,10 +41,10 @@
   
   <entry>
     <title>博客测试页</title>
-    <link href="http://example.com/posts/50683.html"/>
-    <id>http://example.com/posts/50683.html</id>
+    <link href="http://example.com/posts/1.html"/>
+    <id>http://example.com/posts/1.html</id>
     <published>2023-10-01T05:40:14.000Z</published>
-    <updated>2023-10-01T07:47:57.757Z</updated>
+    <updated>2023-10-01T07:49:13.452Z</updated>
     
     
       
