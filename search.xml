@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>博客测试页</title>
-    <url>/posts/50683.html</url>
+    <url>/posts/50684.html</url>
     <content><![CDATA[<h1 id="一级标题测试"><a href="#一级标题测试" class="headerlink" title="一级标题测试"></a>一级标题测试</h1><h2 id="二级标题测试"><a href="#二级标题测试" class="headerlink" title="二级标题测试"></a>二级标题测试</h2><h3 id="三级标题测试"><a href="#三级标题测试" class="headerlink" title="三级标题测试"></a>三级标题测试</h3><h4 id="四级标题测试"><a href="#四级标题测试" class="headerlink" title="四级标题测试"></a>四级标题测试</h4><h5 id="五级标题测试"><a href="#五级标题测试" class="headerlink" title="五级标题测试"></a>五级标题测试</h5><h6 id="六级标题测试"><a href="#六级标题测试" class="headerlink" title="六级标题测试"></a>六级标题测试</h6><blockquote>
 <p>引用测试</p>
 <p>123456</p>
@@ -20,5 +20,8 @@
 <hr>
 <img src="https://img.alicdn.com/imgextra/i4/2877272061/TB2ixQXhcPRfKJjSZFOXXbKEVXa_!!2877272061.jpg" alt="图片测试" style="zoom:33%;" />
 ]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
   </entry>
 </search>
