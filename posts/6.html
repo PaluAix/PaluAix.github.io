@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>博客测试页 |  Aix&#39;s Blog</title>
+      <title>线段树解决A+B问题 |  Aix&#39;s Blog</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/A.ico" />
@@ -54,7 +54,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-博客测试页"
+  id="post-线段树解决A-B问题"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -65,7 +65,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  博客测试页
+  线段树解决A+B问题
 </h1>
  
 
@@ -73,11 +73,11 @@
     </header>
      
     <div class="article-meta">
-      <a href="/posts/1.html" class="article-date">
-  <time datetime="1997-10-01T05:40:14.000Z" itemprop="datePublished">1997-10-01</time>
+      <a href="/posts/6.html" class="article-date">
+  <time datetime="2023-10-03T07:10:58.000Z" itemprop="datePublished">2023-10-03</time>
 </a> 
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%B5%8B%E8%AF%95/">测试</a>
+    <a class="article-category-link" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a>
   </div>
   
 <div class="word_count">
@@ -85,7 +85,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">70</span>
+            <span class="post-count">533</span>
         </span>
     </span>
 
@@ -94,7 +94,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
+            <span class="post-count">2 min</span>
         </span>
     </span>
 </div>
@@ -109,20 +109,30 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h1 id="一级标题测试"><a href="#一级标题测试" class="headerlink" title="一级标题测试"></a>一级标题测试</h1><h2 id="二级标题测试"><a href="#二级标题测试" class="headerlink" title="二级标题测试"></a>二级标题测试</h2><h3 id="三级标题测试"><a href="#三级标题测试" class="headerlink" title="三级标题测试"></a>三级标题测试</h3><h4 id="四级标题测试"><a href="#四级标题测试" class="headerlink" title="四级标题测试"></a>四级标题测试</h4><h5 id="五级标题测试"><a href="#五级标题测试" class="headerlink" title="五级标题测试"></a>五级标题测试</h5><h6 id="六级标题测试"><a href="#六级标题测试" class="headerlink" title="六级标题测试"></a>六级标题测试</h6><blockquote>
-<p>引用测试</p>
-<p>123456</p>
+  <blockquote>
+<p>无意在洛谷上看见了自己A的第一道题A+B Problem，十分感慨。但可惜时间太过长久忘记了此题正确的解法，只好使出下策：线段树！</p>
 </blockquote>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//代码块测试</span></span><br></pre></td></tr></table></figure>
+<h1 id="A-B-Problem"><a href="#A-B-Problem" class="headerlink" title="A+B Problem"></a>A+B Problem</h1><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输入两个整数 $a, b$，输出它们的和（$|a|,|b| \le {10}^9$）。</p>
+<p>注意</p>
+<ol>
+<li>Pascal 使用 <code>integer</code> 会爆掉哦！</li>
+<li>有负数哦！</li>
+<li>C&#x2F;C++ 的 main 函数必须是 <code>int</code> 类型，而且 C 最后要 <code>return 0</code>。这不仅对洛谷其他题目有效，而且也是 NOIP&#x2F;CSP&#x2F;NOI 比赛的要求！</li>
+</ol>
+<p>好吧，同志们，我们就从这一题开始，向着大牛的路进发。</p>
+<blockquote>
+<p>任何一个伟大的思想，都有一个微不足道的开始。</p>
+</blockquote>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>两个以空格分开的整数。</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>一个整数。</p>
+<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例 #1"></a>样例 #1</h2><h3 id="样例输入-1"><a href="#样例输入-1" class="headerlink" title="样例输入 #1"></a>样例输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">20 30</span><br></pre></td></tr></table></figure>
 
-<p><strong>加粗文本</strong></p>
-<p><em>斜体文本</em></p>
-<p><u>下划线文本</u></p>
-<p><del>删除线文本</del></p>
-<!--注释-->
+<h3 id="样例输出-1"><a href="#样例输出-1" class="headerlink" title="样例输出 #1"></a>样例输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">50</span><br></pre></td></tr></table></figure>
 
-<p><a target="_blank" rel="noopener" href="https://paluaix.github.io/">超链接测试</a></p>
-<p><img src="https://pic.imgdb.cn/item/651e7543c458853aef2dc274.jpg" alt="图片测试"></p>
+
+
+<h1 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> LC p &lt;&lt; 1</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> RC p &lt;&lt; 1 | 1</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">1e5</span>;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">int</span> <span class="title">IN</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">char</span> c = <span class="built_in">getchar</span>();</span><br><span class="line">  <span class="type">int</span> x = <span class="number">0</span>, f = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">while</span> (c &lt; <span class="string">&#x27;0&#x27;</span> || c &gt; <span class="string">&#x27;9&#x27;</span>) &#123;</span><br><span class="line">    <span class="keyword">if</span> (c == <span class="string">&#x27;-&#x27;</span>) f = <span class="number">-1</span>;</span><br><span class="line">    c = <span class="built_in">getchar</span>();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">while</span> (c &gt;= <span class="string">&#x27;0&#x27;</span> &amp;&amp; c &lt;= <span class="string">&#x27;9&#x27;</span>) &#123;</span><br><span class="line">    x = x * <span class="number">10</span> + c - <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">    c = <span class="built_in">getchar</span>();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> x * f;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">AplusB</span> &#123;</span><br><span class="line">  <span class="type">int</span> l, r, val;</span><br><span class="line">&#125; t[N * <span class="number">4</span>];</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">PushUp</span><span class="params">(<span class="type">int</span> p)</span> </span>&#123;</span><br><span class="line">  t[p].val = t[LC].val + t[RC].val;</span><br><span class="line">  <span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Build</span><span class="params">(<span class="type">int</span> p, <span class="type">int</span> l, <span class="type">int</span> r)</span> </span>&#123;</span><br><span class="line">  t[p].l = l, t[p].r = r;</span><br><span class="line">  <span class="keyword">if</span> (l == r) &#123;</span><br><span class="line">    t[p].val = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="type">int</span> mid = (t[p].l + t[p].r) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">  <span class="built_in">Build</span>(LC, l, mid);</span><br><span class="line">  <span class="built_in">Build</span>(RC, mid + <span class="number">1</span>, r);</span><br><span class="line">  <span class="built_in">PushUp</span>(p);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">add</span><span class="params">(<span class="type">int</span> p, <span class="type">int</span> x, <span class="type">int</span> v)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (t[p].l == t[p].r) &#123;</span><br><span class="line">    t[p].val += v;</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="type">int</span> mid = (t[p].l + t[p].r) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span> (x &lt;= mid)</span><br><span class="line">    <span class="built_in">add</span>(LC, x, v);</span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">    <span class="built_in">add</span>(RC, x, v);</span><br><span class="line">  <span class="built_in">PushUp</span>(p);</span><br><span class="line">  <span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">Ask</span><span class="params">(<span class="type">int</span> p, <span class="type">int</span> l, <span class="type">int</span> r)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (t[p].l &gt;= l &amp;&amp; t[p].r &lt;= r) <span class="keyword">return</span> t[p].val;</span><br><span class="line">  <span class="type">int</span> ans = <span class="number">0</span>;</span><br><span class="line">  <span class="type">int</span> mid = (t[p].l + t[p].r) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span> (l &lt;= mid) ans += <span class="built_in">Ask</span>(LC, l, r);</span><br><span class="line">  <span class="keyword">if</span> (r &gt; mid) ans += <span class="built_in">Ask</span>(RC, l, r);</span><br><span class="line">  <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="type">int</span> a = <span class="built_in">IN</span>(), b = <span class="built_in">IN</span>();</span><br><span class="line">  <span class="built_in">Build</span>(<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>);</span><br><span class="line">  <span class="built_in">add</span>(<span class="number">1</span>, <span class="number">1</span>, a), <span class="built_in">add</span>(<span class="number">1</span>, <span class="number">1</span>, b);</span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;%lld&quot;</span>, <span class="built_in">Ask</span>(<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>));</span><br><span class="line">  <span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
  
       <!-- reward -->
       
@@ -139,15 +149,20 @@
    
   <nav class="article-nav">
     
-      <a href="/posts/2.html" class="article-nav-link">
+      <a href="/posts/7.html" class="article-nav-link">
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
-            洛谷P3374的线段树解法
+            一本通-花神游历各国
           
         </div>
       </a>
     
+    
+      <a href="/posts/5.html" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">线段树区间乘法模板</div>
+      </a>
     
   </nav>
 
