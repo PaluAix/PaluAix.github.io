@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-04T23:57:40.307Z</updated>
+  <updated>2023-10-14T11:46:14.225Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FHQ_Treap非指针模板</title>
+    <link href="http://example.com/posts/63159.html"/>
+    <id>http://example.com/posts/63159.html</id>
+    <published>2023-10-14T11:42:31.000Z</published>
+    <updated>2023-10-14T11:46:14.225Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【模板】普通平衡树&quot;&gt;&lt;a href=&quot;#【模板】普通平衡树&quot; class=&quot;headerlink&quot; title=&quot;【模板】普通平衡树&quot;&gt;&lt;/a&gt;【模板】普通平衡树&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>一本通-花神游历各国</title>
