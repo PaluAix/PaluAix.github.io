@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Aix&#39;s Blog</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-10-31T10:07:21.162Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Aix</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>没有上司的舞会</title>
+    <link href="http://example.com/posts/53013.html"/>
+    <id>http://example.com/posts/53013.html</id>
+    <published>2023-10-31T10:04:46.000Z</published>
+    <updated>2023-10-31T10:07:21.162Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>FHQ_Treap非指针模板</title>
+    <link href="http://example.com/posts/63159.html"/>
+    <id>http://example.com/posts/63159.html</id>
+    <published>2023-10-14T11:42:31.000Z</published>
+    <updated>2023-10-31T10:03:11.430Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【模板】普通平衡树&quot;&gt;&lt;a href=&quot;#【模板】普通平衡树&quot; class=&quot;headerlink&quot; title=&quot;【模板】普通平衡树&quot;&gt;&lt;/a&gt;【模板】普通平衡树&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>花神游历各国</title>
+    <link href="http://example.com/posts/7.html"/>
+    <id>http://example.com/posts/7.html</id>
+    <published>2023-10-04T03:41:52.000Z</published>
+    <updated>2023-10-31T10:05:12.790Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;花神游历各国&quot;&gt;&lt;a href=&quot;#花神游历各国&quot; class=&quot;headerlink&quot; title=&quot;花神游历各国&quot;&gt;&lt;/a&gt;花神游历各国&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>线段树区间乘法模板</title>
+    <link href="http://example.com/posts/5.html"/>
+    <id>http://example.com/posts/5.html</id>
+    <published>2023-10-03T01:48:53.000Z</published>
+    <updated>2023-10-31T10:03:11.431Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【模板】线段树-2&quot;&gt;&lt;a href=&quot;#【模板】线段树-2&quot; class=&quot;headerlink&quot; title=&quot;【模板】线段树 2&quot;&gt;&lt;/a&gt;【模板】线段树 2&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>线段树区间修改模板</title>
+    <link href="http://example.com/posts/4.html"/>
+    <id>http://example.com/posts/4.html</id>
+    <published>2023-10-02T00:31:53.000Z</published>
+    <updated>2023-10-31T10:03:11.431Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【模板】线段树&quot;&gt;&lt;a href=&quot;#【模板】线段树&quot; class=&quot;headerlink&quot; title=&quot;【模板】线段树&quot;&gt;&lt;/a&gt;【模板】线段树&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>洛谷P3374的线段树解法</title>
+    <link href="http://example.com/posts/2.html"/>
+    <id>http://example.com/posts/2.html</id>
+    <published>2023-10-01T07:30:20.000Z</published>
+    <updated>2023-10-31T10:03:11.431Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;P3374&quot;&gt;&lt;a href=&quot;#P3374&quot; class=&quot;headerlink&quot; title=&quot;P3374&quot;&gt;&lt;/a&gt;P3374&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构" scheme="http://example.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+  </entry>
+  
+</feed>
